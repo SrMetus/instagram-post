@@ -1,0 +1,50 @@
+body {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+  }
+  
+  .container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 15px 15px;
+  }
+  
+  .post {
+    height: 805px;
+    background-color: white;
+  }
+  
+  .post-header {
+    width: 590px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .post-header i {
+    font-size: 30px;
+  }
+  
+  .fa-brands.fa-html5.fa-2x {
+    margin: 10px;
+  }
+  
+  .fa-solid.fa-ellipsis-vertical {
+    margin-left: auto;
+  }
+  
+  .post-footer {
+    margin: 10px 10px;
+  }
+  
+  .post-footer i {
+    font-size: 25px;
+    margin: 3px;
+  }
+  
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
